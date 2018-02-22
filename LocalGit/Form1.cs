@@ -16,5 +16,11 @@ namespace LocalGit
         {
             InitializeComponent();
         }
+
+        private void btnHello_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello world of Git.");
+        
+        }
     }
 }
